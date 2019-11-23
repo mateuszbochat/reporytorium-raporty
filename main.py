@@ -1,3 +1,3 @@
 import pandas as pd 
-df = pd.read_csv('raport.csv', sep=';') 
-(df.head())
+transactions = pd.read_csv('raport.csv', sep=';', index_col=None)
+print(transactions.head())
